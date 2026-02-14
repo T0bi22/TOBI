@@ -118,7 +118,7 @@ a:hover {
 
 /* ===== PETITES CARTES DANS ABOUT ===== */
 .about-links {
-    grid-template-columns: repeat(1, 200px);
+    grid-template-columns: repeat(2, 200px);
     justify-content: center;
     margin-top: 30px;
 }

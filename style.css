@@ -70,7 +70,9 @@ section {
     overflow: hidden;
     transition: all 0.3s ease;
 }
-
+.card a {
+    display: block;
+}
 /* ===== IMAGE ===== */
 .card img {
     width: 100%;
@@ -89,9 +91,7 @@ section {
     transform: translateY(-8px);
     box-shadow: 0 10px 25px rgba(56, 189, 248, 0.3);
 }
-.card a {
-    display: block;
-}
+
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 1000px) {

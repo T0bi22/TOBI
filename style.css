@@ -115,3 +115,14 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+/* ===== PETITES CARTES DANS ABOUT ===== */
+.about-links {
+    grid-template-columns: repeat(2, 200px);
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.about-links .card img {
+    height: 150px;
+}
